@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"IMPlugin\"><param name=\"ios-package\" value=\"IMPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.plugin.demo"
+        },
+        "com.im.plugin": {
+            "PACKAGE_NAME": "com.plugin.demo"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "com.im.plugin.IMPlugin",
+            "file": "plugins/com.im.plugin/www/IMPlugin.js",
+            "pluginId": "com.im.plugin",
+            "clobbers": [
+                "cordova.plugins.IMPlugin"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.3.2",
+        "com.im.plugin": "1"
+    }
+}

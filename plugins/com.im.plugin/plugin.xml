@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.im.plugin" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>IMPlugin</name><js-module name="IMPlugin" src="www/IMPlugin.js"><clobbers target="cordova.plugins.IMPlugin" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="IMPlugin"><param name="ios-package" value="IMPlugin" /></feature></config-file><source-file src="src/ios/IMPlugin.m" /></platform></plugin>
