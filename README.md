@@ -17,6 +17,5 @@ cordova plugin add ../IMPlugin
 注意点：
 1.index.html中要注释meta信息
 
-<!-- 此处不注释掉，页面无法正常调用js
+此处不注释掉，页面无法正常调用js
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-         -->
