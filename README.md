@@ -9,7 +9,7 @@
 <br>
 `plugman platform add --platform_name ios`
 <br>
-<br>2.创建工程
+2.创建工程
 <br>
 `cordova create PGPluginDemo com.plugin.demo PGPluginDemo`
 <br>
